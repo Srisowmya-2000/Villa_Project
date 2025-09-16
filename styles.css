@@ -590,3 +590,119 @@ footer {
 }
 
 /* Footer Section Ends */
+
+/* Properties Page */
+
+/* Properties Head Starts */
+
+.head {
+  background-image: url(./assets/images/page-heading-bg.jpg);
+  height: 400px;
+  text-align: center;
+}
+
+.properties-header {
+  color: white;
+  padding: 150px 550px;
+}
+
+.properties-header p {
+  background-color: white;
+  color: black;
+  padding: 7px;
+}
+
+.properties-header h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.button {
+  margin: 20px auto;
+  padding: 20px 500px;
+}
+
+.house {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.active {
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+/* Properties Head Ends */
+
+/* Property Cards Section Starts */
+
+.properties1 {
+  width: 98%;
+}
+
+.properties-card1 {
+  display: flex;
+  margin-left: 50px;
+  gap: 90px;
+  margin: 60px;
+}
+
+.properties-cards1 {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.properties-cards1 img {
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.badge.luxury1 {
+  left: 20px;
+  background: rgb(253, 192, 167);
+  width: 90px;
+  text-align: center;
+}
+
+.properties-card1 h3 {
+  color: orangered;
+  margin: 30px;
+  font-size: x-large;
+}
+
+.properties-card1 p {
+  font-size: 14px;
+  text-align: justify;
+  margin: 30px;
+  color: black;
+  border-radius: 4px;
+}
+
+.properties-card1 b {
+  margin: 30px;
+}
+
+.price1 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.visit1 {
+  color: white;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 110px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+/* Property Cards Section Ends */
