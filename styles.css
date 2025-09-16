@@ -591,7 +591,7 @@ footer {
 
 /* Footer Section Ends */
 
-/* Properties Page */
+/* Properties Page Starts*/
 
 /* Properties Head Starts */
 
@@ -706,3 +706,77 @@ footer {
 }
 
 /* Property Cards Section Ends */
+
+/* Properties Page Ends */
+
+/* Property Details Page Starts */
+
+/* Properties Details Starts */
+
+.property-detail {
+  margin: 50px;
+  display: flex;
+}
+
+.proper img {
+  width: 700px;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.proper p {
+  margin: 30px;
+  background-color: rgb(248, 202, 184);
+  width: 100px;
+  text-align: center;
+  padding: px 20px;
+}
+
+.proper h3 {
+  margin: 30px;
+}
+
+.cards1 {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  padding: 10px 20px;
+  gap: 200px;
+  margin-left: 150px;
+}
+
+.best {
+  padding: 0px 100px;
+}
+
+.cards1 img {
+  width: 40px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.property-left {
+  margin: 90px;
+  width: 50%;
+}
+
+.property-tag1 {
+  color: orangered;
+  margin-bottom: 1px;
+}
+
+.accordion {
+  width: 90%;
+  padding: 10px;
+  margin: 15px 0;
+  border-left: 3px solid white;
+}
+
+#active {
+  color: orangered;
+}
+
+/* Properties Details Ends */
+
+/* Property Deatils Page Ends */
