@@ -31,9 +31,8 @@
 }
 
 .right :hover {
-
   border-radius: 80px;
-  transform: scale(1.05);
+  color: orangered;
 }
 
 /* Header Section Ends */
@@ -78,50 +77,40 @@ nav .container {
   color: black;
 }
 
-.nav-links a.active1 {
-  color: orangered;
-}
-
-.nav-links a.active2 {
-  color: orangered;
-}
-
-.nav-links a.active3 {
-  color: orangered;
-}
-
-.nav-links a.active4 {
+.nav-links a:hover {
   color: orangered;
 }
 
 .schedule-btn {
   display: flex;
   align-items: center;
-  gap: 10px;
   background: black;
-  color: orangered;
-  font-weight: bold;
-  padding: 2px 0px;
-  width: 170px;
+  color: white;
+  border: none;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 16px;
   text-decoration: none;
-  margin-bottom: 10px;
+  width: 180px;
+  height: 40px;
 
 }
 
 .schedule-btn:hover {
-  transform: scale(1.05);
+  color: orangered;
 }
 
 .schedule-btn .icon {
   background-color: orangered;
   color: white;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -8px;
+
 }
 
 /* Nav Section Ends */
@@ -170,11 +159,36 @@ nav .container {
 /* Hero Section Ends */
 
 /* Featured Section Starts */
-
-.featured {
+.f-icon {
   display: flex;
   gap: 70px;
   margin: 60px auto;
+  position: relative;
+}
+
+.featured-icon {
+  background-image: url(./assets/images/featured-icon.png);
+  background-repeat: no-repeat;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-position: 25px 25px;
+  top: 1310px;
+  left: 45px;
+}
+
+.featured-container {
+  display: flex;
+  gap: 50px;
+  margin: 90px;
+  justify-content: space-evenly;
+}
+
+.featured-middle a {
+  text-decoration: none;
+  width: 200px;
 }
 
 .featured img {
@@ -188,7 +202,6 @@ nav .container {
 }
 
 .accordion {
-  width: 90%;
   padding: 10px;
   margin: 15px 0;
   border-left: 3px solid white;
@@ -206,8 +219,10 @@ nav .container {
 .cards {
   border: 1px solid whitesmoke;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 450px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
+  height: 461px;
+  width: 520px;
+  padding: 10px 20px;
 }
 
 /* Featured Section Ends */
@@ -230,13 +245,15 @@ nav .container {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
-  top: 380px;
+  top: 355px;
   left: 350px;
+  border-radius: 7px;
 }
 
 .video-tag {
   color: orangered;
   text-align: center;
+  margin-top: 80px;
 }
 
 .video-bg h2 {
@@ -260,12 +277,7 @@ nav .container {
   justify-content: center;
   font-size: 22px;
   cursor: pointer;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-}
-
-.play-btn:hover {
-  scale: 1.06;
-  background-color: rgb(253, 204, 187);
+  box-shadow: 0px 0px 40px orangered;
 }
 
 .stats {
@@ -280,11 +292,12 @@ nav .container {
   text-align: center;
   background: rgb(248, 211, 198);
   padding: 12px 16px;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  width: 200px;
 }
 
 .stat h3 {
@@ -298,6 +311,39 @@ nav .container {
   margin: 1px;
   font-size: 13px;
   color: black;
+}
+
+.stats .circle1{
+  height: 40px;
+  width: 40px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  top: 313.5%;
+  left: 400px;
+  transform: translateY(-100%);
+}
+
+.stats .circle2{
+  height: 40px;
+  width: 40px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  top: 313.5%;
+  left: 835px;
+  transform: translateY(-100%);
+}
+
+.stats .circle3{
+  height: 40px;
+  width: 40px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  top: 313.5%;
+  right: 210px;
+  transform: translateY(-100%);
 }
 
 /* Video Section Ends */
@@ -388,36 +434,6 @@ nav .container {
   border-color: orangered;
 }
 
-.deal-btn {
-  display: flex;
-  align-items: center;
-  background: black;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  text-decoration: none;
-  width: 180px;
-  height: 40px;
-}
-
-.deal-btn:hover {
-  transform: scale(1.1);
-}
-
-.icon1 {
-  background-color: orangered;
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  left: -8px;
-}
-
 /* Deals Section Ends */
 
 /* Properties Section Starts */
@@ -442,9 +458,9 @@ nav .container {
 }
 
 .properties-cards {
-  background: #fff;
+  background: rgb(237, 236, 236);
   border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .properties-cards img {
@@ -455,7 +471,8 @@ nav .container {
 
 .badge.luxury {
   left: 20px;
-  background: #e74c3c;
+  background: rgb(253, 192, 167);
+  text-align: center;
 }
 
 .properties-card h3 {
@@ -468,10 +485,6 @@ nav .container {
   text-align: justify;
   margin: 30px;
   color: black;
-}
-
-.properties-card b {
-  margin: 30px;
 }
 
 .price {
@@ -488,6 +501,7 @@ nav .container {
   border-radius: 20px;
   margin-left: 110px;
   margin-bottom: 15px;
+  width: 170px;
 }
 
 /* Properties Section Ends */
@@ -502,7 +516,7 @@ nav .container {
 
 .title {
   background-image: url(./assets/images/contact-bg.jpg);
-  height: 400px;
+  height: 480px;
   width: auto;
   padding: 60px 160px;
 }
@@ -529,8 +543,8 @@ iframe {
   color: black;
   text-align: left;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
   max-width: 350px;
   width: 100%;
   margin-top: 140px
@@ -571,6 +585,7 @@ iframe {
   align-items: center;
   justify-content: space-evenly;
   width: 250px;
+  height: 80px;
 }
 
 .info p {
@@ -655,69 +670,43 @@ footer {
 .properties1 {
   width: 98%;
 }
-
-.properties-card1 {
-  display: flex;
-  margin-left: 50px;
-  gap: 90px;
-  margin: 60px;
-}
-
-.properties-cards1 {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-}
-
-.properties-cards1 img {
-  margin-left: 5px;
-  margin-top: 10px;
-  border-radius: 12px;
-}
-
-.badge.luxury1 {
-  left: 20px;
-  background: rgb(253, 192, 167);
-  width: 90px;
-  text-align: center;
-}
-
-.properties-card1 h3 {
-  color: orangered;
-  margin: 30px;
-  font-size: x-large;
-}
-
-.properties-card1 p {
-  font-size: 14px;
-  text-align: justify;
-  margin: 30px;
-  color: black;
-  border-radius: 4px;
-}
-
-.properties-card1 b {
-  margin: 30px;
-}
-
-.price1 {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-
-.visit1 {
-  color: white;
-  background-color: black;
-  align-items: center;
-  text-align: center;
-  border-radius: 20px;
-  margin-left: 110px;
-  margin-bottom: 15px;
-  padding: 10px;
-}
-
+/* All the styling for Property Cards was written in Home Page */
+/* The same classes were used here in this page to style the property cards */
 /* Property Cards Section Ends */
+
+/* Numbers Section Starts */
+
+.number {
+  margin: 20px auto;
+  padding: 20px 580px;
+}
+
+.num {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 16px;
+  border: 1px solid black;
+}
+
+.num1 {
+  background-color: orangered;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 16px;
+  border: 1px solid orangered;
+}
+
+.num2 {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 8px;
+  border: 1px solid black;
+}
+
+/* Numbers Section Ends */
+
 /* Properties Page Ends */
 
 
@@ -729,6 +718,11 @@ footer {
   margin: 50px;
   display: flex;
 }
+
+.best a {
+  text-decoration: none;
+}
+
 
 .proper img {
   width: 700px;
@@ -751,10 +745,10 @@ footer {
 .cards1 {
   border: 1px solid whitesmoke;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 500px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
+  height: 450px;
+  width: 300px;
   padding: 10px 20px;
-  gap: 200px;
   margin-left: 150px;
 }
 
@@ -818,51 +812,35 @@ footer {
 }
 
 .info-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  width: 200px;
   border-radius: 10px;
-  background-color: whitesmoke;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 80px;
   margin: 20px;
 }
 
-.info-item img {
+.img1 {
   width: 40px;
   height: 40px;
 }
 
-.form1 {
-  background: whitesmoke;
-  width: 30%;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  padding: 20px 30px;
-}
-
-.form1 form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.submit1 {
-  background-color: black;
-  color: white;
-  width: 150px;
-  border-radius: 12px;
-  font-size: large;
-  align-items: center;
-  text-align: center;
-  margin-left: 100px;
+.img2 {
+  width: 40px;
+  height: 30px;
 }
 
 .googlemap {
   height: 400px;
-  width: 80%;
+  width: 90%;
   border-radius: none;
-  
+  margin: 0 auto;
+  display: block;
 }
+
+/* All the styling for Form was written in Home Page */
+/* The same classes were used here in this page to style the Form */
 
 /* Contact Page Ends */
