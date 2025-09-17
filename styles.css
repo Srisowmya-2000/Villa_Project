@@ -713,6 +713,13 @@ footer {
   border: 1px solid black;
 }
 
+.num:hover {
+  background-color: orangered;
+}
+.num2:hover {
+  background-color: orangered;
+}
+
 /* Numbers Section Ends */
 
 /* Properties Page Ends */
