@@ -372,6 +372,10 @@ nav .container {
   gap: 350px;
 }
 
+.house:hover {
+  background-color: orangered;
+}
+
 .deal-content {
   display: flex;
   align-items: center;
@@ -502,6 +506,10 @@ nav .container {
   margin-left: 110px;
   margin-bottom: 15px;
   width: 170px;
+}
+
+.visit:hover{
+  background-color: orangered;
 }
 
 /* Properties Section Ends */
